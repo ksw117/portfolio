@@ -1,0 +1,122 @@
+/* line */
+.line_small{
+    width: 100%; height: 4px;
+    background: url(../images/line_small.png) no-repeat center / cover;
+}
+.line_large{
+    width: 100%; height: 6px;;
+    background: url(../images/line_large.png) no-repeat center / cover;
+}
+
+/* header */
+header{width: 100%; height: 80px; position: fixed; z-index: 999;}
+header .gnb ul{ display: flex; flex-wrap: wrap; justify-content: center; align-items: center;}
+header .gnb ul li a{ 
+    display: block; width: 200px; height: 80px;
+    line-height: 80px; text-align: center; color: #1E1E1E;
+    transition: .3s ease;
+}
+header .gnb ul li a:hover{color: #F6F6F6; background: #1E1E1E;}
+
+/* main_hero */
+.hero{width: 100%; height: 100vh; background: #999;}
+
+/* work */
+.work{width: 100%; margin: 0 auto; padding: 0 48px; box-sizing: border-box;}
+
+.wokr_wrap{width: 100%; display: flex; flex-wrap: wrap; flex-direction: column; gap: 40px;}
+
+
+.work_title{
+    width: 100%; display: flex; flex-wrap: wrap; flex-direction: column; gap: 16px; align-items: flex-end;
+    padding: 8px 0 16px 0; box-sizing: border-box;
+}
+.work_title p{margin-right: 10px;}
+
+.work_contents{
+    width: 100%; display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 60px;
+}
+
+.work .contents_text{ width: 32%; display: flex; flex-wrap: wrap; flex-direction: column; gap: 8px;}
+.work .contents_text .line_small{margin-bottom: 12px;}
+.work .contents_text .contents_article_medium{margin-bottom: 8px; color: #333;}
+
+
+
+.work_img{width: 600px; height: 600px;}
+.work_wrap:first-child .work_contents .work_img{background: #999;}
+.work_wrap:nth-child(2) .work_contents .work_img{background: #999;}
+.work_wrap:nth-child(3) .work_contents .work_img{background: #999;}
+.work_wrap:nth-child(4) .work_contents .work_img{background: #999;}
+.work_wrap:last-child .work_contents .work_img{background: #999;}
+
+.work_btn{width: 32%;}
+.work_btn a{
+    width: 100%;    height: 80px;
+    padding-left: 24px; box-sizing: border-box;
+    display: flex; flex-wrap: wrap; flex-direction: column; justify-content: center;
+    transition: .3s ease;
+    background: url(../images/work_btn.png) no-repeat center / cover;
+}
+
+
+
+
+
+/* about */
+.about{
+    width: 100%; margin: 0 auto; padding: 160px 48px; box-sizing: border-box;
+    display: flex; flex-wrap: wrap; justify-content: space-between;
+    color: #F6F6F6; background: #1E1E1E;
+}
+
+.about .me .section_title, .about .story .section_title{margin-bottom: 40px;}
+
+.me{display: flex; flex-wrap: wrap; flex-direction: column;}
+.me .contents_text{display: flex; flex-wrap: wrap; flex-direction: column; gap: 28px;}
+.contents_text_wrap{display: flex; flex-wrap: wrap; flex-direction: column; gap: 4px;}
+.contents_text_wrap .contents_title_medium{ margin-bottom: 4px;}
+
+.skill{display: flex; flex-wrap: wrap; gap: 20px;}
+.skill_img{width: 36px; height: 36px;}
+.skill_img:first-child{background: url(../images/skill_01.png) no-repeat center / cover;}
+.skill_img:nth-child(2){background: url(../images/skill_02.png) no-repeat center / cover;}
+.skill_img:nth-child(3){background: url(../images/skill_03.png) no-repeat center / cover;}
+.skill_img:nth-child(4){background: url(../images/skill_04.png) no-repeat center / cover;}
+.skill_img:last-child{background: url(../images/skill_05.png) no-repeat center / cover;}
+
+.story{width: 65%; display: flex; flex-wrap: wrap; flex-direction: column;}
+.story_text{
+    width: 100%;
+    display: flex; flex-wrap: wrap; flex-direction: column; gap: 12px;
+    padding: 24px 30px; box-sizing: border-box; border-radius: 12px; margin-bottom: 40px;
+    background: #333;
+}
+
+/* contact */
+.contact{
+    width: 100%; margin: 0 auto; padding: 160px 48px; box-sizing: border-box;
+    display: flex; flex-wrap: wrap; flex-direction: column;
+}
+.contact .section_title{margin-bottom: 60px;}
+
+.form{
+    width: 100%; display: flex; flex-wrap: wrap; flex-direction: column; 
+}
+.form_item, .contact_form_item_inquiry{ width: 100%; display: flex; flex-wrap: wrap;}
+.form_item p, .form_item input{width: 50%; padding: 12px 10px; box-sizing: border-box;}
+.contact_form_item_inquiry p, .contact_form_item_inquiry input{
+    width: 50%; height: 80px; padding: 12px 10px; box-sizing: border-box;
+}
+
+.contact_btn a{
+    width: 100%; height: 86px; margin-top: 80px;
+    background: url(../images/contact_btn.png) no-repeat center / cover;
+    display: flex; justify-content: center; align-items: center;
+    border-radius: 8px;
+    transition: .3s ease;
+}
+
+/* footer */
+footer{padding: 120px; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; text-align: center;}
+

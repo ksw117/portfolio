@@ -1,0 +1,47 @@
+@media screen and ( max-width: 1440px ) {    
+    .work{padding: 0 24px;}
+    .work_img{width: 400px; height: 400px;}
+}
+
+@media screen and ( max-width: 1280px ) {
+    .work, .about, .contact {padding-left: 40px; padding-right: 40px;}
+
+}
+
+@media screen and ( max-width: 1024px ) {
+
+    .work, .about, .contact {padding-left: 33px; padding-right: 33px;}
+    .work_contents{gap: 20px;}
+    .work .contents_text, .work_btn{width: 24%;}
+
+
+    .about{flex-direction: column; gap: 60px;}
+    .story{width: 100%;}
+}
+
+@media screen and ( max-width: 768px ) {
+
+
+    .work, .about, .contact {padding-left: 26px; padding-right: 26px;}
+    .work_contents{flex-direction: column;  align-items: center;}
+    .work_contents .contents_text, .work_contents .work_btn{ width: 100%;}
+    .work_img{width: 100%; height: 400px;}
+}
+
+@media screen and ( max-width: 600px ) {
+    .work, .about, .contact {padding-left: 19px; padding-right: 19px;}
+    .work_contents{flex-direction: column;  align-items: center;}
+    .work_contents .contents_text, .work_contents .work_btn{ width: 100%;}
+    .work_img{width: 100%; height: 500px;}
+    .work_btn a{padding-left: 12px;}
+} 
+
+@media screen and ( max-width: 480px ) {
+
+
+    .work, .about, .contact {padding-left: 12px; padding-right: 12px;}
+    .work_img{width: 100%; height: 296px;}
+
+    .skill{justify-content: space-between;}
+
+}

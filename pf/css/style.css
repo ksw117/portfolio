@@ -1,0 +1,62 @@
+.contents_title_small{font-size: 16px; font-weight: 700;}
+.contents_title_medium{font-size: 20px; font-weight: 700; letter-spacing: -0.5px;}
+.contents_title_large{font-size: 24px; font-weight: 700; letter-spacing: -0.5px;}
+
+.contents_article_medium{font-size: 14px; font-weight: 400; letter-spacing: -0.5px;}
+.contents_article_large{font-size: 16px; font-weight: 400; letter-spacing: -0.5px; line-height: 130%;}
+
+
+.gnb ul li a{font-size: 20px;  font-family: "Walter Turncoat", cursive; text-transform: uppercase;}
+.section_title {font-size: 48px;   font-family: "Walter Turncoat", cursive; text-transform: uppercase;}
+
+.work_btn{font-size: 30px; font-family: "Walter Turncoat", cursive; text-transform: uppercase;}
+.work_btn a, .contact_btn a{color: #1E1E1E;}
+.work_btn a:hover, .contact_btn a:hover{color: #F6F6F6; background: #1E1E1E;}
+
+.contact_btn{font-size: 40px; font-family: "Walter Turncoat", cursive; text-transform: uppercase;}
+
+
+@media screen and ( max-width: 1440px ) {
+    .contents_title_large{font-size: 20px;}
+
+    .work_btn{font-size: 24px;}
+    .contact_btn{font-size: 32px;}
+}
+
+@media screen and ( max-width: 1280px ) {
+    .contents_title_medium{font-size: 16px;}
+    .work_btn{font-size: 22px;}
+    .contact_btn{font-size: 30px;}
+}
+
+@media screen and ( max-width: 1024px ) {
+    .gnb ul li a{font-size: 18px;}
+    .contents_title_large{font-size: 18px;}
+    .work_btn{font-size: 20px;}
+    .contact_btn{font-size: 28px;}
+}
+
+@media screen and ( max-width: 768px ) {
+    .gnb ul li a{font-size: 16px;}
+    .section_title {font-size: 36px;}
+}
+
+@media screen and ( max-width: 600px ) {
+    .gnb ul li a{font-size: 14px;}
+    .section_title {font-size: 32px;}
+
+    .contact_btn{font-size: 24px;}
+}
+
+@media screen and ( max-width: 480px ) {
+
+    .gnb ul li a{font-size: 12px;}
+
+    .section_title {font-size: 24px;}
+
+    .contents_title_small{font-size: 14px;}
+    .contents_article_large{font-size: 14px;}
+
+    .work_btn{font-size: 16px;}
+    .contact_btn{font-size: 22px;}
+}
