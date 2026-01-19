@@ -12,7 +12,6 @@
     position: fixed;
     top: calc( ( 100vh - 140px ) );
     right: 40px;
-
 }
 
 
@@ -23,14 +22,14 @@
 }
 
 .home{
+    width: 40px; height: 40px;
     margin-bottom: 20px;
 }
 
 .text_wrap{
     display: flex; flex-wrap: wrap; flex-direction: column; gap: 20px;
-    padding-top: 40px; box-sizing: border-box;
+    padding: 40px 0; box-sizing: border-box;
 
-   
 }
 
 .title_wrap{
@@ -42,4 +41,5 @@
 .img{
     width: 100%;
     height: 1000px;
+    background: #000;
 }
