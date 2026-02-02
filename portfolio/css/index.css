@@ -163,7 +163,8 @@ header .gnb ul li a:hover{color: #F6F6F6; background: #1E1E1E;}
 .work_title p{margin-right: 10px;}
 
 .work_contents{
-    width: 100%; display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 60px;
+    width: 100%; display: flex; justify-content: space-between; align-items: flex-end; 
+    margin-bottom: 60px;
 }
 
 .work .contents_text{ width: 32%; display: flex; flex-wrap: wrap; flex-direction: column; gap: 8px;}
