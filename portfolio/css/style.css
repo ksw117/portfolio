@@ -31,10 +31,34 @@
     border-radius: 8px;
     transition: .3s ease;
     cursor: pointer;
+
+    position: relative;
+    overflow: hidden;
+}
+.contact_btn p {
+    color: #1E1E1E; z-index: 2;
+    transition: color 0.1s ease;
 }
 
-.contact_btn:hover{background: #1E1E1E;}
-.contact_btn:hover p{color: #F6F6F6;}
+.contact_btn.active p {
+    color: #F6F6F6;
+}
+
+.contact_btn span {
+    position: absolute;
+    width: 0;
+    height: 0;
+    background: #1E1E1E;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    transition: width 0.8s ease, height 0.8s ease;
+}
+
+
+
+
+
 
 
 @media screen and ( max-width: 1440px ) {
