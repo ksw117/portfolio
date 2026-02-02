@@ -17,8 +17,13 @@
         <link rel="stylesheet" href="css/resonsive.css">
         <link rel="stylesheet" href="css/index_responsive.css">
 
+
+          <!-- emailJS cdn -->
+        <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
         <!-- js -->
         <script src="js/index.js"></script>
+        <script src="js/game.js"></script>
 
     </head>
 
@@ -39,24 +44,22 @@
                 <div class="game-container">
                     <!-- Start Menu -->
                     <div id="start-menu">
-                        <h1 class="title">DESERT<br>HORSE</h1>
+                        <h1 class="title">DESERT<br>CAT</h1>
                         <p class="subtitle">A PIXELATED ADVENTURE</p>
                         <button id="start-btn"> START</button>
                     </div>
             
                     <div id="instructions" class="hidden">
-                        SPACE / ↑ to Jump<br>
-                                    ↓ to Duck<br>
-                                    Dodge the cactus and vultures!
+                        SPACE & ↑ to Jump / ↓ to Duck<br>
+                        Dodge the bone and vultures!
                     </div>
+
                     <div id="score">00000</div>
                     <div id="game-over" class="hidden">
                         <p>GAME OVER</p>
                         <p class="small">Press SPACE to restart</p>
                     </div>
                     <canvas id="gameCanvas"></canvas>
-                        <p id="cheat-code">Cheat Code: ↑ ↑ ↓ ↓ ← → ← → </p>
-            
                 </div>
             </section>
 
@@ -272,34 +275,34 @@
             <section class="contact" id="contact">
                 <p class="section_title">contact</p>
                 
-                <form class="form">
+                <form class="form" id="form">
                     <div class="form_item">
                         <label for="company" class="contents_title_large">Company</label>
-                        <input type="text" placeholder="Comapny" onfocus="this.placeholder=''" onblur="this.placeholder='Company'">
+                        <input type="text" id="company" placeholder="Comapny" onfocus="this.placeholder=''" onblur="this.placeholder='Company'">
                         <div class="line_large"></div>
                     </div>
 
                     <div class="form_item">
                         <label for="name" class="contents_title_large">Name</label>
-                        <input type="text" placeholder="Name" onfocus="this.placeholder=''" onblur="this.placeholder='Name'">
+                        <input type="text" id="name" placeholder="Name" onfocus="this.placeholder=''" onblur="this.placeholder='Name'">
                         <div class="line_large"></div>
                     </div>
 
                     <div class="form_item">
                         <label for="E-mail" class="contents_title_large">E-mail</label>
-                        <input type="email" placeholder="E-mail" onfocus="this.placeholder=''" onblur="this.placeholder='E-mail'">
+                        <input type="email" id="email" placeholder="E-mail" onfocus="this.placeholder=''" onblur="this.placeholder='E-mail'">
                         <div class="line_large"></div>
                     </div>
 
                     <div class="form_item">
                         <label for="Phonenumber" class="contents_title_large">Phone Number</label>
-                        <input type="number" placeholder="Phone Number" onfocus="this.placeholder=''" onblur="this.placeholder='Phone Number'">
+                        <input type="number" id="phone" placeholder="Phone Number" onfocus="this.placeholder=''" onblur="this.placeholder='Phone Number'">
                         <div class="line_large"></div>
                     </div>
 
                     <div class="contact_form_item_inquiry">
                         <label for="message" class="contents_title_large">Inquiry Details</label>
-                        <input type="textarea" placeholder="Please Fill In" onfocus="this.placeholder=''" onblur="this.placeholder='Please Fill In'">
+                        <input type="textarea" id="message" placeholder="Please Fill In" onfocus="this.placeholder=''" onblur="this.placeholder='Please Fill In'">
                         <div class="line_large"></div>
                     </div>
 
@@ -317,5 +320,8 @@
         <footer>
             <p class="section_title">Thank you for watching</p>
         </footer>
+
+
+        <script src="js/email.js"></script>
     </body>
 </html>
