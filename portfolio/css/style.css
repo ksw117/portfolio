@@ -11,7 +11,7 @@
 
 .work_btn{
     font-size: 30px; font-family: "Walter Turncoat", cursive; text-transform: uppercase;
-    width: 32%; height: 80px;
+    height: 80px;
     padding-left: 24px; box-sizing: border-box;
     display: flex; flex-wrap: wrap; flex-direction: column; justify-content: center;
     transition: .3s ease;     cursor: pointer;
