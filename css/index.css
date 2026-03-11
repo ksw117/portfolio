@@ -176,10 +176,10 @@ header .gnb ul li a:hover{color: #F6F6F6; background: #1E1E1E;}
 .work .contents_text .contents_article_medium{margin-bottom: 8px; color: #333;}
 
 .work_wrap:first-child .work_contents .work_img{background: #999;}
-.work_wrap:nth-child(2) .work_contents .work_img{background: #999;}
-.work_wrap:nth-child(3) .work_contents .work_img{background: #999;}
+.work_wrap:nth-child(2) .work_contents .work_img{background: url(../images/work_img_mac.jpg) no-repeat center / cover;}
+.work_wrap:nth-child(3) .work_contents .work_img{background: url(../images/work_img_teamdomingo.jpg) no-repeat center / cover;}
 .work_wrap:nth-child(4) .work_contents .work_img{background: #999;}
-.work_wrap:nth-child(5) .work_contents .work_img{background: url(../images/thum_work6.jpg) no-repeat center / cover;}
+.work_wrap:nth-child(5) .work_contents .work_img{background: url(../images/work_img_homechoice.jpg) no-repeat center / cover;}
 .work_wrap:last-child .work_contents .work_img{background:#999 }
 
 
